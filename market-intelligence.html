@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mehari Redai Import & Export Oil Factory | Premium Edible Oil - Mekelle, Ethiopia</title>
+  <meta name="description" content="Leading manufacturer of refined sunflower and soybean edible oil in Tigray, Ethiopia. Full extraction and refinery plant."/>
+  
+  <!-- Tailwind + AOS Animation -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            primary: '#EFB41E',   // Sunflower yellow
+            secondary: '#1E3A8A', // Deep blue
+            accent: '#10b981'
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="text-gray-800 overflow-x-hidden">
+
+  <!-- Fixed Navbar -->
+  <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-lg z-50 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <img src="assets/img/logo.png" alt="Mehari Redai Oil Factory Logo" class="h-14">
+          <span class="ml-3 text-2xl font-bold text-secondary">Mehari Redai Oil Factory</span>
+        </div>
+
+        <!-- Desktop Menu – All 7 pages -->
+        <div class="hidden lg:flex items-center space-x-1">
+          <a href="index.html" class="px-5 py-3 text-gray-700 hover:text-primary font-medium transition">Home</a>
+          <a href="about.html" class="px-5 py-3 text-gray-700 hover:text-primary font-medium transition">About</a>
+          <a href="products.html" class="px-5 py-3 text-gray-700 hover:text-primary font-medium transition">Products</a>
+          <a href="production.html" class="px-5 py-3 text-gray-700 hover:text-primary font-medium transition">Production</a>
+          <a href="quality.html" class="px-5 py-3 text-gray-700 hover:text-primary font-medium transition">Quality</a>
+          <a href="market-intelligence.html" class="px-5 py-3 text-gray-700 hover:text-primary font-medium transition">Market Intelligence</a>
+          <a href="partnership.html" class="px-5 py-3 text-gray-700 hover:text-primary font-medium transition">Partnership</a>
+          <a href="contact.html" class="bg-primary text-white px-8 py-3 rounded-full font-bold hover:bg-yellow-600 hover:scale-105 transition ml-4">Contact</a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-btn" class="lg:hidden text-3xl text-gray-800">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu – All 7 pages -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-t">
+      <div class="px-4 py-6 space-y-3 text-center">
+        <a href="index.html" class="block py-3 text-lg font-medium hover:text-primary">Home</a>
+        <a href="about.html" class="block py-3 text-lg font-medium hover:text-primary">About</a>
+        <a href="products.html" class="block py-3 text-lg font-medium hover:text-primary">Products</a>
+        <a href="production.html" class="block py-3 text-lg font-medium hover:text-primary">Production</a>
+        <a href="quality.html" class="block py-3 text-lg font-medium hover:text-primary">Quality</a>
+        <a href="market-intelligence.html" class="block py-3 text-lg font-medium hover:text-primary">Market Intelligence</a>
+        <a href="partnership.html" class="block py-3 text-lg font-medium hover:text-primary">Partnership</a>
+        <a href="contact.html" class="block py-4 bg-primary text-white rounded-full text-lg font-bold">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- Page Hero -->
+<section class="relative h-96 flex items-center justify-center overflow-hidden">
+  <div class="absolute inset-0 bg-black/70 z-10"></div>
+  <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('assets/img/market-chart.jpg');"></div>
+  <div class="relative z-20 text-center text-white px-6">
+    <h1 class="text-5xl md:text-7xl font-extrabold" data-aos="fade-up">
+      Market Intelligence Center
+    </h1>
+    <p class="text-xl md:text-2xl mt-4 opacity-90" data-aos="fade-up" data-aos-delay="200">
+      Real-time edible oil prices • Import trends • Local demand • Updated December 2025
+    </p>
+  </div>
+</section>
+
+<div class="max-w-7xl mx-auto px-4 py-20">
+
+  <!-- Current Prices (Live Update Style) -->
+  <div class="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-3xl p-12 mb-20" data-aos="fade-up">
+    <h2 class="text-4xl font-bold text-center text-secondary mb-12">
+      Current Market Prices – December 2025
+    </h2>
+    <div class="grid md:grid-cols-3 gap-10 text-center">
+      <div class="bg-white rounded-2xl p-8 shadow-2xl stat-card">
+        <div class="text-5xl font-bold text-primary mb-4">ETB 3,850</div>
+        <p class="text-xl font-semibold">Sunflower Oil<br><span class="text-gray-600 text-sm">20L Jerrycan (Ex-factory)</span></p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-2xl stat-card">
+        <div class="text-5xl font-bold text-primary mb-4">ETB 3,650</div>
+        <p class="text-xl font-semibold">Soybean Oil<br><span class="text-gray-600 text-sm">20L Jerrycan (Ex-factory)</span></p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-2xl stat-card">
+        <div class="text-5xl font-bold text-primary mb-4">ETB 165</div>
+        <p class="text-xl font-semibold">Per Liter Wholesale<br><span class="text-gray-600 text-sm">5+ tons order</span></p>
+      </div>
+    </div>
+    <p class="text-center mt-8 text-gray-600 italic">Prices updated weekly • Contact for bulk & export quotes</p>
+  </div>
+
+  <!-- Import vs Local Production Chart -->
+  <div class="grid md:grid-cols-2 gap-12 mb-20">
+    <div data-aos="fade-right">
+      <h3 class="text-3xl font-bold text-secondary mb-8">Ethiopia Edible Oil Import (2025)</h3>
+      <div class="space-y-6 text-lg">
+        <div class="flex justify-between items-center bg-gray-50 p-6 rounded-xl">
+          <span>🇹🇷 Turkey</span>
+          <strong class="text-primary text-2xl">42%</strong>
+        </div>
+        <div class="flex justify-between items-center bg-gray-50 p-6 rounded-xl">
+          <span>🇺🇦 Ukraine</span>
+          <strong class="text-primary text-2xl">28%</strong>
+        </div>
+        <div class="flex justify-between items-center bg-gray-50 p-6 rounded-xl">
+          <span>🇲🇾 Malaysia (Palm)</span>
+          <strong class="text-primary text-2xl">15%</strong>
+        </div>
+        <div class="flex justify-between items-center bg-primary/10 p-6 rounded-xl">
+          <span>🇪🇹 Local Production (Mehari Redai + others)</span>
+          <strong class="text-secondary text-2xl font-bold">8% and growing</strong>
+        </div>
+      </div>
+    </div>
+
+    <div data-aos="fade-left">
+      <h3 class="text-3xl font-bold text-secondary mb-8">Why Choose Local?</h3>
+      <ul class="space-y-6 text-lg">
+        <li class="flex gap-4"><i class="fas fa-check-circle text-primary text-2xl"></i> <strong>No import delays</strong> – delivery in 24–48 hours</li>
+        <li class="flex gap-4"><i class="fas fa-check-circle text-primary text-2xl"></i> <strong>Fresher oil</strong> – refined this month, not 6 months ago</li>
+        <li class="flex gap-4"><i class="fas fa-check-circle text-primary text-2xl"></i> <strong>Support Tigray & Ethiopian farmers</strong></li>
+        <li class="flex gap-4"><i class="fas fa-check-circle text-primary text-2xl"></i> <strong>Save 15–25% vs imported brands</strong></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Monthly Report Download -->
+  <div class="text-center bg-secondary text-white py-16 rounded-3xl" data-aos="zoom-in">
+    <h2 class="text-4xl md:text-5xl font-bold mb-8">
+      Download December 2025 Market Report
+    </h2>
+    <p class="text-xl mb-10 max-w-3xl mx-auto opacity-90">
+      Full 12-page report: price trends, import data, regional demand, competitor analysis
+    </p>
+    <a href="assets/pdf/market-report-dec2025.pdf" class="inline-block bg-white text-secondary px-12 py-6 rounded-full text-xl font-bold hover:scale-110 transition shadow-2xl">
+      <i class="fas fa-download mr-3"></i> Download Free Report (PDF)
+    </a>
+  </div>
+
+  <!-- Final CTA -->
+  <div class="text-center mt-24" data-aos="fade-up">
+    <h2 class="text-4xl md:text-5xl font-bold text-secondary mb-8">
+      Ready to Secure Your Supply at the Best Price?
+    </h2>
+    <div class="space-x-6">
+      <a href="https://wa.me/251948090994?text=Hi,%20I%20want%20the%20latest%20price%20list" class="inline-block bg-green-500 text-white px-12 py-6 rounded-full text-xl font-bold hover:scale-110 transition shadow-2xl">
+        <i class="fab fa-whatsapp mr-3"></i> WhatsApp Now
+      </a>
+      <a href="contact.php" class="inline-block bg-primary text-white px-12 py-6 rounded-full text-xl font-bold hover:scale-110 transition shadow-2xl">
+        Request Formal Quote
+      </a>
+    </div>
+  </div>
+
+</div>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/251919430112" target="_blank" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-5 rounded-full shadow-2xl hover:scale-110 transition z-50">
+    <i class="fab fa-whatsapp text-4xl"></i>
+  </a>
+
+  <!-- One-Line Footer – exactly as you wanted -->
+  <footer class="bg-secondary text-white py-5 text-center text-sm font-medium">
+    © 2025 Mehari Redai Import & Export Oil Factory • Mekelle, Tigray • +251 919 430 112 • abellmesfin@gmail.com
+  </footer>
+
+  <!-- All Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    // AOS animation init
+    AOS.init({
+      once: true,
+      duration: 800,
+      easing: 'ease-out-cubic'
+    });
+  </script>
+</body>
+</html>

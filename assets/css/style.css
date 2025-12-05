@@ -1,0 +1,54 @@
+/* ==========================================
+   Mehari Redai Oil – Final style.css
+   ========================================== */
+
+/* Hover scale effect (cards, buttons, images) */
+.hover-scale {
+  transition: all 0.4s ease;
+}
+.hover-scale:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Hero background slider – 4 images */
+.hero-slider {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/hero-1.webp');   /* fallback */
+  animation: heroSlide 28s infinite;
+}
+
+/* 28 seconds total – each image visible ~6–7 seconds */
+@keyframes heroSlide {
+  0%,   22% { background-image: url('../img/hero-1.webp'); }
+  25%,  47% { background-image: url('../img/hero-2.webp'); }
+  50%,  72% { background-image: url('../img/hero-3.webp'); }
+  75%,  97% { background-image: url('../img/hero-4.webp'); }
+  100%      { background-image: url('../img/hero-1.webp'); }
+}
+
+/* Stop animation for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .hero-slider {
+    animation: none;
+    background-image: url('../img/hero-1.webp') !important;
+  }
+}
+
+/* Smooth entrance for statistic cards */
+.stat-card {
+  transition: all 0.4s ease;
+}
+.stat-card:hover {
+  transform: translateY(-12px);
+}
+
+/* Button hover effect */
+.btn-primary {
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(239, 180, 30, 0.4);
+}
